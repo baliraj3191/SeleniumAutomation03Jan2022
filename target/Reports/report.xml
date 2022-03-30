@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="41.155852">
+<testcase classname="FacebookFeature" name="Login Scenario" time="23.914904">
+<system-out><![CDATA[Given I am a user of facebook applications..................................passed
+When User enter valid Username Bali.........................................passed
+And User enter valid Password 12345.........................................passed
+And User click on login button..............................................passed
+Then User should be able to login successfully..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="FacebookFeature" name="Login Scenario 2" time="17.240948">
+<system-out><![CDATA[Given I am a user of facebook applications..................................passed
+When User enter valid Username Ravi.........................................passed
+And User enter valid Password 45632.........................................passed
+And User click on login button..............................................passed
+Then User should be able to login successfully..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

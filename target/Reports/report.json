@@ -1,0 +1,214 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "facebookfeature;login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22714455500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am a user of facebook applications",
+            "match": {
+              "location": "LoginStepDefination.i_am_a_user_of_facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 409087500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter valid Username Bali",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bali",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_valid_Username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 462700200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter valid Password 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_valid_Password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328422200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on login button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238799,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "LoginStepDefination.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Facebook"
+          },
+          {
+            "line": 5,
+            "name": "@LoginTag"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "facebookfeature;login-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16013283301,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am a user of facebook applications",
+            "match": {
+              "location": "LoginStepDefination.i_am_a_user_of_facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 306185400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter valid Username Ravi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_valid_Username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 494540400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter valid Password 45632",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45632",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDefination.user_enter_valid_Password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 426800300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on login button",
+            "match": {
+              "location": "LoginStepDefination.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to login successfully",
+            "match": {
+              "location": "LoginStepDefination.user_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Facebook"
+          },
+          {
+            "line": 5,
+            "name": "@LoginTag"
+          }
+        ]
+      }
+    ],
+    "name": "FacebookFeature",
+    "description": "I want to test facebook application",
+    "id": "facebookfeature",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Facebook"
+      }
+    ]
+  }
+]
