@@ -6,8 +6,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginPage {
   
-	public WebDriver driver;
 	
+	public WebDriver driver;
+	//openUrl method for launching browser
 	public void openUrl() {
 
 		System.setProperty("webdriver.chrome.driver", "D:\\Automation_QE7\\chromedriver_win32\\chromedriver.exe");
